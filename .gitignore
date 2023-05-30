@@ -1,0 +1,11 @@
+/server
+/.crystal/
+/*.o
+/*.dwarf
+*.tmp
+logs
+*.log
+/shard.lock
+/lib/
+/bin/
+/lib/

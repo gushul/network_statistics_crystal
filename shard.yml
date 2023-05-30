@@ -1,0 +1,23 @@
+name: network-statistics
+version: 0.1.0
+
+authors:
+  - Oleg Gushul <gushul.o@gmail.com>
+
+crystal: 1.8.2
+
+dependencies:
+  json_mapping:
+    github: crystal-lang/json_mapping.cr
+
+development_dependencies:
+  webmock:
+    github: manastech/webmock.cr
+    version: ~> 0.14.0
+
+
+targets:
+  server:
+    main: src/server.cr
+
+license: MIT
